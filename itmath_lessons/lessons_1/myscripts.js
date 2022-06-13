@@ -54,6 +54,7 @@ class Lesson_1 {
         let a = prompt("Please input first argument");
         let b = prompt("Pleae  input second argument");
 
+
         let A = [a, b]
         console.log("minimal element is:" + Math.min(...A))
     }
